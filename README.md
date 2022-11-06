@@ -15,7 +15,7 @@ SHORT_ACTIVE_CGNAT_DEVICES_WITH_HOST = [
 ]
 ```
 
-Then you need to add the the list of IPs in `cgnat_owner_ips.csv` under `fiels` folder as below:
+Then you need to add the the list of IPs in `cgnat_owner_ips.csv` under `files` folder as below:
 
 ```
 IP Address,Port,Time,description
@@ -30,13 +30,13 @@ IP Address,Port,Time,description
 Then run below command to create virtual environment on root folder
 
 ```
-python3 -m venv sample_venv
+python3 -m venv py_env
 ```
 
 After that you need to activate the virtual environment
 
 ```
-.\sample_venv\Scripts\activate
+.\py_env\Scripts\activate
 ```
 
 Then you need to install required python packages with below command:
